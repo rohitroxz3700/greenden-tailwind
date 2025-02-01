@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind CSS CDN Link -->
+    <link href="
+    https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+    " rel="stylesheet">
+</head>
+<body>
+    <!-- Responsive Navbar -->
+     <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10"> <!--items- center helps bring everything in the same line-->
+        <h1 class="text-2xl p-2">GREENDEN</h1>
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="./index.html">Home</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="./products.html">Products</a>
+            </li>
+
+            <li>
+                <a class="hover:underline hover:text-black" href="./contact.html">Contact</a>
+            </li>
+        </ul>
+     </nav>
+
+     <section>
+        <h1 class="font-bold text-3xl text-center pt-10">Our Products</h1>
+        <div>
+            <input type="text" class="border border-black p-2 ml-20 mt-2" placeholder="Search for a Product..." style="width: 80%;">
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-10 ml-10">
+            <div>
+                <img class="inline" src="./plant1.png" alt="">
+                <p>Rose Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img class="" src="./plant2.png" alt="">
+                <p>Lily Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img class="" src="./plant3.png" alt="">
+                <p>Hibuscus Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img class="" src="./plant4.png" alt="">
+                <p>Pet Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img class="" src="./plant5.png" alt="">
+                <p>Hibuscus Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img class="" src="./plant6.png" alt="">
+                <p>Sunflower Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img class="" src="./plant7.png" alt="">
+                <p>Money Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img class="" src="./plant8.png" alt="">
+                <p>Marigold Plant</p>
+                <p>$20</p>
+            </div>
+        </div>
+     </section>
+
+     <section class="pt-5 bg-green-100 mt-8 p-5">
+        <h1 class="text-3xl font-bold p-3">Greenden</h1>
+        <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nam animi commodi fugiat porro est quae eaque minima. Quod minima rerum eos fugiat vero voluptas, quia iste ipsa dolores id?</p>
+        <p class="p-3">@2021 Greenday.com</p>
+     </section>
+</body>
+</html>
